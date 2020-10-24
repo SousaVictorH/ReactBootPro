@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../logo.svg";
 import {Link} from "react-router-dom";
+import {FaBars} from "react-icons/fa";
 
 function Navbar(){
     return(
@@ -9,7 +10,9 @@ function Navbar(){
                 <img src={logo} alt="logoImg" style={{width:'35px'}}/>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+                <span>
+                    <FaBars style={{color: '#fff'}}/>
+                </span>
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
