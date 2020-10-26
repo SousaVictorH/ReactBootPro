@@ -9,7 +9,7 @@ class InfoProvider extends Component{
     state = {
         info: placeInfo,
         reviews: reviews,
-        detail: detailInfo,
+        detailInfo: detailInfo,
         news: news,
     }
 
@@ -22,7 +22,7 @@ class InfoProvider extends Component{
                 headerTitle: this.state.headerTitle,
                 headerSubTitle: this.state.headerSubTitle,
                 headerText: this.state.headerText,
-                detail: this.detail,
+                detailInfo: this.state.detailInfo,
                 news: this.state.news,
                 name: this.state.name,
                 avatar: this.state.avatar,
