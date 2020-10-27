@@ -8,21 +8,19 @@ The main goal of this project is to improve my skills reactJs, react bootstrap, 
 ### :iphone: Here's a few snapshots of the app:
 
 ```sh
-1. Filter
+1. Home
 ```
-![filter](https://github.com/SousaVictorH/JSBootstrap/blob/master/projectImg/filtro.gif)
+![Home](https://github.com/SousaVictorH/ReactBootPro/blob/master/public/projectImages/image1.png)
 ```sh
-2. Main Slider
+2. Details
 ```
-![mainSlider](https://github.com/SousaVictorH/JSBootstrap/blob/master/projectImg/mainSlider.gif)
+![Details](https://github.com/SousaVictorH/ReactBootPro/blob/master/public/projectImages/image2.png)
 ```sh
-3. Animated Scroll
+3. Not Found Page
 ```
-![animatedScroll](https://github.com/SousaVictorH/JSBootstrap/blob/master/projectImg/scrollAnimado.gif)
-```sh
-4. Responsivity (smartphones and tablets)
-```
-![responsivity](https://github.com/SousaVictorH/JSBootstrap/blob/master/projectImg/responsividade.png)
+![NotFoundPage](https://github.com/SousaVictorH/ReactBootPro/blob/master/public/projectImages/image3.png)
+
+
 
 ###  :hammer: Made with
 
