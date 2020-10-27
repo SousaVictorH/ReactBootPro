@@ -12,7 +12,7 @@ class Info extends Component{
 
         return(
             <InfoConsumer>
-                {data => (
+                {value => (
                     <div className="col-10 col-lg-4 mx-auto mb-5">
                     <div className="card" style={{width: '18rem'}}>
                             
@@ -21,7 +21,7 @@ class Info extends Component{
                             <h3 class="card-title text-uppercase">{headerTitle}</h3>
                             <h5 class="card-title">{headerSubTitle}</h5>
                             <p className="card-text">{headerText}</p>
-                            <Link to="/details"
+                            <Link to="/details" onClick={() => value.handleDetail(id)}
                             className="btn btn-outline-primary text-uppercase d-flex justify-content-center">
                                 More Info
                             </Link>

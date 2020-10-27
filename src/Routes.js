@@ -22,7 +22,7 @@ function Routes(){
                     <Route path="/news" component={News}/>
                     <Route path="/contacts" component={Contact}/>
                     <Route path="/details" component={Details}/>
-                    <Route path="/not-found-page" component={NotFoundPage}/>
+                    <Route component={NotFoundPage}/>
 
                 </Switch>
 
